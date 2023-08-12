@@ -1,0 +1,22 @@
+@use '../../lib/service.scss' as s;
+
+.page {
+  font-family: 'Roboto', sans-serif;
+  font-size: s.size();
+  background-color: s.color('background');
+}
+
+// .test {
+//   background-image: url('/img/test.svg');
+//   background-position: center;
+//   padding: s.space(6);
+//   height: 300px;
+//   width: 300px;
+//   background-repeat: no-repeat;
+//   color: blue;
+//   font-size: s.size(header);
+//   font-weight: bold;
+//   text-align: center;
+//   border: 3px solid red;
+//   border-radius: s.space(6);
+// }
